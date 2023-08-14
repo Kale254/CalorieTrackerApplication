@@ -1,2 +1,3 @@
-# My first Github Project
-THis is my first Github Project. I published directly from VS Code.
+# My first Github Project from VS Code
+
+I published directly from VS Code.
