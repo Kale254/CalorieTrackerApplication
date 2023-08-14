@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <!--
+        JavaScript
+        Final Project
+
+        Calorie Tracker Web Application
+        Author: Kale Wetjen
+        Date:   4/13/2023
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kale Wetjen Calorie Tracker Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+    <script src="foodlist.js" defer></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">BMR Calculator</a></li>
+            <li><a href="tracker.html">Calorie Tracker</a></li>
+            <li><a href="foodList.html">Food List</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <h1>BMR Calculator</h1>
+
+  <form id="calorie-form">
+    <div>
+      <label for="height">Height (in inches)</label>
+      <input type="number" id="height" name="height" required>
+    </div>
+
+    <div>
+      <label for="weight">Weight (in lbs)</label>
+      <input type="number" id="weight" name="weight" required>
+    </div>
+
+    <div>
+      <label>Gender</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label>
+    </div>
+
+    <div>
+      <label for="exercise">Exercise level</label>
+      <select id="exercise" name="exercise" required>
+        <option value>Sedentary (little activity)</option>
+        <option value="lightlyActive">Lightly active (1-3 days per week)</option>
+        <option value="moderatelyActive">Moderately active (3-5 days per week)</option>
+        <option value="veryActive">Very active (6-7 days per week)</option>
+        <option value="superActive">Super active (twice per day or very hard exercise)</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" required>
+    </div>
+    <button type="submit">Calculate</button>
+  </form>  
+
+  <div id="calorie-output"></div>
+</body>
+</html>

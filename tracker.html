@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <!--
+        JavaScript
+        Final Project
+
+        Calorie Tracker Web Application
+        Author: Kale Wetjen
+        Date:   4/13/2023
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kale Wetjen Calorie Tracker Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+    <script src="foodlist.js" defer></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  
+  <body>
+      <header>
+          <nav>
+            <ul>
+              <li><a href="index.html">BMR Calculator</a></li>
+              <li><a href="tracker.html">Calorie Tracker</a></li>
+              <li><a href="foodList.html">Food List</a></li>
+            </ul>
+          </nav>
+        </header>
+      <h1>Calorie Tracker</h1>
+
+    <form id="calorie-form">
+      
+      <div>
+          <label for="goal">Calorie Goal</label>
+          <input type="number" id="goal" name="goal" required>
+      </div>
+
+      <div>
+          <label for="proteinGoal">Protein Goal (g)</label>
+          <input type="number" id="proteinGoal" name="proteinGoal" required>
+      </div>
+
+      <div>
+        <label for="fatGoal">Fat Goal (g)</label>
+        <input type="number" id="fatGoal" name="fatGoal" required>
+      </div>
+
+      <div>
+        <label for="carbsGoal">Carb Goal (g)</label>
+        <input type="number" id="carbsGoal" name="carbsGoal" required>
+      </div>
+
+      <div>
+          <label for="consume">Calories Consumed</label>
+          <input type="number" id="consume" name="consume" required>
+      </div>
+
+      <div>
+          <label for="protein">Grams of Protein</label>
+          <input type="number" id="protein" name="protein" required>
+        </div>
+
+      <div>
+          <label for="fat">Grams of Fat</label>
+          <input type="number" id="fat" name="fat" required>
+      </div>
+
+      <div>
+        <label for="carbs">Grams of Carbs</label>
+        <input type="number" id="carbs" name="carbs" required>
+      </div>
+
+      <button type="submit">Calculate</button>
+    </form>  
+
+    <div id="calorie-output"></div>
+  </body>
+</html>

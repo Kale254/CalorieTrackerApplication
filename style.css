@@ -1,0 +1,188 @@
+/*  
+      JavaScript
+      Final Project
+
+      Calorie Tracker Web Application
+      Author: Kale Wetjen
+      Date:   4/13/2023
+*/
+
+/* Center the form and output horizontally */
+h1, h2{
+    text-align: center;
+}
+
+#calorie-form,
+#calorie-output {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style the form elements */
+#calorie-form div {
+  margin-bottom: 1rem;
+}
+
+#calorie-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+#calorie-form input[type="number"],
+#calorie-form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#calorie-form input[type="radio"],
+#calorie-form select option {
+    float: left;
+}
+
+#calorie-form button[type="submit"] {
+  background-color: #1c7cd6;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#calorie-form button[type="submit"]:hover,
+#calorie-form button[type="submit"]:focus {
+  background-color: #0e5fa7;
+}
+
+/* Style the output */
+#calorie-output p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+header {
+    background-color: #3f51b5;
+    height: 70px;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #f0f0f0;
+  }
+
+/* Set background color and padding to bottom */
+body {
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+  } 
+
+/* Style the page header */
+h1, h2 {
+  text-align: center;
+}
+
+/* Style the form and list container */
+form, ul {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style the form elements */
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+form input[type="number"], form input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+form button[type="button"] {
+  background-color: #1c7cd6;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button[type="button"]:hover,
+form button[type="button"]:focus {
+  background-color: #0e5fa7;
+}
+
+/* Style the list items */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+li span {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+/* Style the total header */
+#food-list-header {
+  text-align: center;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+button {
+  margin-bottom: 15px;
+}
